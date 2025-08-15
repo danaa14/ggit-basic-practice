@@ -1,1 +1,1 @@
-First Changes
+am rezolvat conflictul prin terminal
