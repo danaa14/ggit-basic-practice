@@ -1,2 +1,4 @@
-am rezolvat conflictul prin VSCode
-pa
+
+am rezolvat conflictul prin site-ul celor de la GitHub
+salut 
+
