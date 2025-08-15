@@ -1,1 +1,1 @@
-am rezolvat conflictul prin terminal
+am rezolvat conflictul prin VSCode
