@@ -1,3 +1,4 @@
 
-am rezolvat conflictul prin terminal
+am rezolvat conflictul prin site-ul celor de la GitHub
 salut 
+
