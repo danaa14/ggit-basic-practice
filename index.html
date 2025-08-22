@@ -24,25 +24,25 @@
         </section>
         <aside>
             <h3>Profile Settings</h3>
-            <form action="">
+            <form id="form1" onsubmit="getFormValue(event)">
                 <div>
                     <article class="inp">
-                        <p>Name</p>
-                        <input type="text" placeholder="First Name">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="First Name">
                     </article>
                     <article class="inp">
-                        <p>Surname</p>
-                        <input type="text" placeholder="Last Name">
+                        <label for="surname">Surname</label>
+                        <input id="surname" type="text" placeholder="Last Name">
                     </article>
                 </div>
-                    <p>Mobile number</p>
-                    <input type="number" placeholder="Enter phone number">
-                    <p>Adress line 1</p>
-                    <input type="adress" placeholder="Enter adress line">
-                    <p>Email</p>
+                    <label for="number">Mobile Number</label>
+                    <input id="number" type="tel" placeholder="Enter phone number">
+                    <label for="adress">Adress Line 1</label>
+                    <input id="adress" type="text" placeholder="Enter adress line">
+                    <label for="email">Email</label>
                     <input id="email" type="email" placeholder="Enter Email">
-                    <p>Postcode</p>
-                    <input type="number" placeholder="Enter postcode">
+                    <label for="postcode">Postcode</label>
+                    <input id="postcode" type="number" placeholder="Enter postcode">
                     <p>Gender</p>
                     <div>
                         <input class="radio" type="radio" name="gender" id="male" value="male">
@@ -60,5 +60,7 @@
         <article class="articol">Article 2</article>
         <article class="move articol">Article 3</article>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
