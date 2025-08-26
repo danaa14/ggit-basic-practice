@@ -71,7 +71,8 @@ input{
 
 #submit:hover{
     background-color: rgb(119, 28, 28);
-    font-size: 120%;
+    transform: scale(1.01);
+    cursor: pointer;
 }
 
 form{
