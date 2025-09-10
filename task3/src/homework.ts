@@ -9,11 +9,7 @@ interface Product {
 type ProductDelivery = 'To Delilver' | "On the way" | 'Delivered';
 
 interface Car extends Product {
-    readonly id: number,
-    name: string,
-    description: string,
     manufacturingYear: number,
-    productImg?: string,
     use?: CarUse
 }
 
